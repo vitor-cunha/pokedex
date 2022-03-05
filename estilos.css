@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.lista-box-1 {
+    position: absolute;
+    left: 650px;
+    right: 0;
+    margin: auto;
+    top: 220px;
+    width: 230px;
+    height: 50px;
+    background-color: rgb(255, 208, 0);
+    border: 1px solid yellow;
+    border-radius: 30px;
+}
+
+.lista-box-1:hover {
+    top: 215px;
+    transition: all .5s;
+}
+
+.lista-pokemon-icon {
+    position: absolute;
+    left: 15px;
+    right: 0;
+    margin-right: auto;
+    top: 6px;
+}
+
+.lista-pokemon-nome-box {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    margin: auto;
+    top: 18px;
+    width: 150px;
+    height: 20px;
+    background-color: transparent;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    color: black;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.76);
+}
+
+.lista-box-2 {
+    position: absolute;
+    left: 650px;
+    right: 0;
+    margin: auto;
+    top: 300px;
+    width: 230px;
+    height: 50px;
+    background-color: rgb(0, 140, 255);
+    border: 1px solid rgb(0, 26, 255);
+    border-radius: 30px;
+}
+
+.lista-box-2:hover {
+    top: 295px;
+    transition: all .5s;
+}
+
+.lista-box-3 {
+    position: absolute;
+    left: 650px;
+    right: 0;
+    margin: auto;
+    top: 380px;
+    width: 230px;
+    height: 50px;
+    background-color: rgb(124, 59, 69);
+    border: 1px solid rgb(88, 16, 16);
+    border-radius: 30px;
+}
+
+.lista-box-3:hover {
+    top: 375px;
+    transition: all .5s;
+}
+
+.card-box-1 {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 500px;
+    margin: auto;
+    top: 220px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 208, 0);
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.445);
+}
+
+.capa-card-1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2px;
+    width: 395px;
+    height: 300px;
+    background-color: rgb(255, 248, 144);
+}
+
+.pokemon-capa {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.pokemon-id {
+    position: absolute;
+    left: 0;
+    right: 10px;
+    text-align: right;
+    top: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: black;
+}
+
+.pokemon-tipo {
+    font-size: 18px;
+}
+
+.pokemon-bio {
+    position: absolute;
+    left: 3px;
+    right: 0;
+    text-align: left;
+    top: 300px;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+}
+
+.card-box-2 {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 500px;
+    margin: auto;
+    top: 220px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 140, 255);
+    border: 1px solid rgb(0, 26, 255);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.445);
+}
+
+.capa-card-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2px;
+    width: 395px;
+    height: 300px;
+    background-color: rgb(144, 201, 255);
+}
+
+.card-box-3 {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 500px;
+    margin: auto;
+    top: 220px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(155, 82, 82);
+    border: 1px solid rgb(88, 16, 16);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.445);
+}
+
+.capa-card-3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2px;
+    width: 395px;
+    height: 300px;
+    background-color: rgb(112, 53, 53);
+}
+
+footer {
+    position: relative;
+    padding: 35px 50px;
+    background-color: rgb(20,20,20);
+    top: 800px;
+    text-align: center;
+    font-family: arial;
+    color: rgb(226, 226, 226);
+}
+
+@media (max-width: 1000px) {
+    .logo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 550px;
+        height: 300px;
+    }
+    
+    .lista-box-1 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 350px;
+        width: 700px;
+        height: 100px;
+        background-color: rgb(255, 208, 0);
+        border: 1px solid rgb(255, 217, 0);
+        border-radius: 30px;
+    }
+    
+    .lista-box-1:hover {
+        top: 350px;
+    }
+    
+    .lista-pokemon-icon {
+        position: absolute;
+        left: 20px;
+        right: 0;
+        margin-right: auto;
+        top: 10px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .lista-pokemon-nome-box {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 35px;
+        width: 500px;
+        height: 40px;
+        background-color: transparent;
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 35px;
+        color: black;
+        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.76);
+    }
+
+    .lista-box-2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 500px;
+        width: 700px;
+        height: 100px;
+        background-color: rgb(0, 140, 255);
+        border: 1px solid rgb(0, 26, 255);
+        border-radius: 30px;
+    }
+    
+    .lista-box-2:hover {
+        top: 500px;
+    }
+
+    .lista-box-3 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 650px;
+        width: 700px;
+        height: 100px;
+        background-color: rgb(124, 59, 69);
+        border: 1px solid rgb(88, 16, 16);
+        border-radius: 30px;
+    }
+    
+    .lista-box-3:hover {
+        top: 650px;
+    }
+    
+    .card-box-1 {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 850px;
+        width: 700px;
+        height: 1000px;
+        background-color: rgb(255, 208, 0);
+        border: 1px solid yellow;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.445);
+    }
+    
+    .capa-card-1 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 2px;
+        width: 695px;
+        height: 500px;
+        background-color: rgb(255, 248, 144);
+    }
+    
+    .pokemon-capa {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 10px;
+        width: 500px;
+        height: 480px;
+    }
+    
+    .pokemon-id {
+        position: absolute;
+        left: 0;
+        right: 10px;
+        text-align: right;
+        top: 20px;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 30px;
+        color: black;
+    }
+    
+    .pokemon-tipo {
+        font-size: 45px;
+    }
+    
+    .pokemon-bio {
+        position: absolute;
+        left: 5px;
+        right: 0;
+        text-align: left;
+        top: 500px;
+        font-family: arial;
+        font-size: 35px;
+        color: black;
+    }
+
+    .card-box-2 {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 850px;
+        width: 700px;
+        height: 1000px;
+        background-color: rgb(0, 140, 255);
+        border: 1px solid rgb(0, 26, 255);
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.445);
+    }
+    
+    .capa-card-2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 2px;
+        width: 695px;
+        height: 500px;
+        background-color: rgb(144, 201, 255);
+    }
+
+    .card-box-3 {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 850px;
+        width: 700px;
+        height: 1000px;
+        background-color: rgb(155, 82, 82);
+        border: 1px solid rgb(88, 16, 16);
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.445);
+    }
+    
+    .capa-card-3 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 2px;
+        width: 695px;
+        height: 500px;
+        background-color: rgb(112, 53, 53);
+    }
+    
+    footer {
+        position: relative;
+        padding: 70px 50px;
+        background-color: rgb(20,20,20);
+        top: 2000px;
+        text-align: center;
+        font-family: arial;
+        font-size: 40px;
+        color: rgb(226, 226, 226);
+    }
+}
